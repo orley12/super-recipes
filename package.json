@@ -2,37 +2,27 @@
   "name": "super-recipes",
   "version": "1.0.0",
   "description": "A single page web application that provides local caterers with international dishes and there corresponding recipes",
-  "main": "main.js",
+  "main": "webpack.config.js",
   "scripts": {
-    "test": "test",
     "start": "webpack-dev-server --open --hot --mode development",
     "build": "webpack --mode production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/orley12/super-recipes.git"
-  },
-  "keywords": [
-    "npm",
-    "git",
-    "gitignore",
-    "eslint"
-  ],
-  "author": "Oluwatosin . Solarin",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/orley12/super-recipes/issues"
-  },
-  "homepage": "https://github.com/orley12/super-recipes#readme",
   "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.1"
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
   }
 }
