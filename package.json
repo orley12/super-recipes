@@ -1,0 +1,25 @@
+{
+  "name": "super-recipes",
+  "version": "1.0.0",
+  "description": "A single page web application that provides local caterers with international dishes and there corresponding recipes",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orley12/super-recipes.git"
+  },
+  "keywords": [
+    "npm",
+    "git",
+    "gitignore",
+    "eslint"
+  ],
+  "author": "Oluwatosin . Solarin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orley12/super-recipes/issues"
+  },
+  "homepage": "https://github.com/orley12/super-recipes#readme"
+}
